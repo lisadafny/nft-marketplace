@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+    background-color: #B7C9F2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background: #9195F6;
+    background: linear-gradient(90deg, #9195F6 0%, #F9F07A 50%, #FB88B4 100%);
+}
+
+.game-font {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    background: -webkit-linear-gradient(360deg, #9195F6, #F9F07A, #FB88B4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    box-shadow: -5px 1px 5px #9195F6;
+}
+
+.typewrite>.wrap {
+    border-right: 0.08em solid #fff
+}
+
+.nav-link{
+    color: #5457ac;
+}
+
+.navbar-nav .nav-link.active{
+    color: #FB88B4;
+    text-decoration: #F9F07A wavy underline;
+}
+
+.navbar-brand:focus, .navbar-brand:hover, .nav-link:focus, .nav-link:hover{
+    color: #FB88B4;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: #9195F6;
+}
